@@ -7,7 +7,7 @@ import time
 import re
 import os
 
-TOKEN = '7947429084:AAECl4VTgRdgv53IAixvZ5qgDMvABI8_d0o'
+TOKEN = '8243131142:AAEN3RsnJguw526jB1zSG9l5Ms-eXLZsc-0'
 ADMIN_ID = 6454516935  # Telegram ID-и админи аслӣ
 
 bot = telebot.TeleBot(TOKEN)
@@ -630,7 +630,7 @@ def process_backup(msg):
 if __name__ == "__main__":
     # Барқарор кардани вебхук
     bot.remove_webhook()
-    bot.set_webhook(url=f"https://films-bot-9fxf.onrender.com/7947429084:AAECl4VTgRdgv53IAixvZ5qgDMvABI8_d0o")
+    bot.set_webhook(url=f"https://zombi-bot.onrender.com/8243131142:AAEN3RsnJguw526jB1zSG9l5Ms-eXLZsc-0")
     
     # Оғози сервер Flask
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 11000)))
